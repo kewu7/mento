@@ -47,5 +47,17 @@ Eesti turu jaoks kaalumisel (vajavad äriregistri koodi ja pangakontot):
 Soovitus esimeseks valikuks: **Montonio** (pangalingid + kaart ühe liidesega, madalad tasud,
 sobib ühe tootega poele). Stripe lisada hiljem Apple Pay / välismaiste kaartide jaoks, kui vajadus tekib.
 
-NB! Enne maksete avamist on vaja ka: müügitingimused, privaatsuspoliitika ja tagastustingimuste
-leht (jaluses on kohatäite-lingid) ning tellimuste vastuvõtuks backend või e-poe platvorm.
+NB! Enne maksete avamist on vaja tellimuste vastuvõtuks backend või e-poe platvorm.
+
+## Õiguslehed
+
+`tingimused.html` (müügitingimused) ja `privaatsus.html` (privaatsuspoliitika) on mallid,
+mis järgivad Eesti e-poe standardnõudeid (VÕS 14-päevane taganemisõigus, 2-aastane
+pretensiooniaeg, IKÜM/GDPR). Enne avaldamist:
+
+1. asenda kõik nurksulgudes `[...]` kohatäited (ärinimi, registrikood, aadress, kuupäevad,
+   makseteenuse pakkuja jne);
+2. eemalda lehtede ülaosast sinine "NB! See on mall" kast ja `<meta name="robots" content="noindex">`;
+3. lase tekstid soovitavalt juristil üle vaadata.
+
+Checkout-vormis on kohustuslik märkeruut "Nõustun müügitingimustega".

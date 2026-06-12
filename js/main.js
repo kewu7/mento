@@ -325,15 +325,6 @@ $$("[data-snow]").forEach((box) => {
   }
 });
 
-/* ---------- Puuduvad lingid ---------- */
-
-$$("[data-todo-link]").forEach((a) => {
-  a.addEventListener("click", (e) => {
-    e.preventDefault();
-    showToast("See leht lisatakse koos müügitingimustega");
-  });
-});
-
 /* ---------- Init ---------- */
 
 renderCart();

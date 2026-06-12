@@ -1029,6 +1029,52 @@ legend {
 .order-confirm p { color: var(--ink-soft); max-width: 34em; margin-inline: auto; }
 .order-confirm .btn { margin-top: 16px; }
 
+/* ---------- Õigusleheküljed ---------- */
+
+.legal-page { padding-block: clamp(40px, 6vw, 72px) clamp(56px, 8vw, 96px); }
+.legal-page .container { max-width: 760px; }
+.legal-page h1 { font-size: clamp(1.8rem, 3.5vw, 2.4rem); margin-bottom: .2em; }
+.legal-page h2 { font-size: 1.25rem; margin-top: 2em; }
+.legal-page p, .legal-page li { color: var(--ink-soft); font-size: .96rem; }
+.legal-page ul { padding-left: 1.3em; margin: 0 0 1em; }
+.legal-page li { margin-bottom: .35em; }
+.legal-page a { color: var(--blue-700); }
+.legal-page strong { color: var(--ink); }
+.legal-meta { color: var(--ink-soft); font-size: .88rem; margin-bottom: 28px; }
+
+.legal-notice {
+  background: var(--blue-50);
+  border: 1px solid var(--blue-100);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  font-size: .88rem;
+  color: var(--ink-soft);
+  margin-bottom: 32px;
+}
+.legal-notice code { font-size: .85em; }
+
+.footer-inline-link { color: #aebbe4; }
+.footer-inline-link:hover { color: #fff; }
+
+/* ---------- Nõusoleku märkeruut ---------- */
+
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-size: .88rem;
+  color: var(--ink-soft);
+}
+.consent input {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  margin-top: 2px;
+  accent-color: var(--blue-500);
+}
+.consent a { color: var(--blue-700); }
+
 /* ---------- Teavitus ---------- */
 
 .toast {
