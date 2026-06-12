@@ -16,17 +16,20 @@ js/main.js      — ostukorv (localStorage), tellimuse vormistamine, valideerimi
 - **Hind ja toote andmed:** muuda `js/main.js` algusest `PRODUCT` objekti (hind on praegu
   kohatäide 24,90 €) ning HTML-is `[data-price]` kuvahindu. Samuti `FREE_SHIPPING_FROM` lävend.
 - **Tarnehinnad:** `index.html` tarneviiside `data-price` atribuudid + kuvatavad hinnad.
-- **Kontakt:** jaluses on kohatäide `info@mento.ee`.
+- **Kontakt:** AR Capital OÜ, `arcapitalgroupp@gmail.com` (jaluses ja õiguslehtedel).
+  Õiguslehtedel on veel täitmata registrikood ja aadress.
 
 ## Tootefotod
 
-Praegu on lehel brändistiilis SVG-joonistused (kohatäited). Päris fotode lisamiseks on
-HTML-is kommentaarid (`<!-- Foto: images/... -->`) järgmistes kohtades:
+Kasutusel:
 
-- `images/hero.jpg` — kangelase visuaal (`.hero-card`)
+- `images/komplekt.jpeg` — kangelase visuaal (`.hero-card`)
+- `images/kinkekarp.jpeg` — kingituse sektsioon
+
+Veel fotodega katmata (praegu brändistiilis SVG-joonistused, HTML-is kommentaarid):
+
 - `images/veski.jpg`, `images/purk.jpg`, `images/laastud.jpg` — "Karbis on" kaardid
-- `images/kinkekarp.jpg` — kingituse sektsioon
-- `images/komplekt.jpg` — ostuploki visuaal
+- ostuploki visuaal (`.buy-visual`) — sobiks detailifoto (nt kristallid lähivõttes)
 
 Soovituslik formaat: WebP/AVIF, laius ~1200 px, `loading="lazy"` (v.a hero).
 
