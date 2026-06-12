@@ -16,7 +16,7 @@ js/main.js      — ostukorv (localStorage), tellimuse vormistamine, valideerimi
 - **Hind ja toote andmed:** muuda `js/main.js` algusest `PRODUCT` objekti (hind on praegu
   kohatäide 24,90 €) ning HTML-is `[data-price]` kuvahindu. Samuti `FREE_SHIPPING_FROM` lävend.
 - **Tarnehinnad:** `index.html` tarneviiside `data-price` atribuudid + kuvatavad hinnad.
-- **Kontakt:** AR Capital OÜ (reg-kood 14229114, Helmika tn 17, Kõrveküla alevik, Tartu vald),
+- **Kontakt:** AR Capital Group OÜ (reg-kood 16351581, Hirvela tn 13-13, Sauga alevik, Tori vald),
   `arcapitalgroupp@gmail.com` — jaluses ja õiguslehtedel. Õiguslehtedel on täitmata veel ainult
   makseteenusega seotud kohatäited (lisanduvad makselahenduse valikuga).
 
