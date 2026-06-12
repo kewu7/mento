@@ -72,7 +72,7 @@ function renderCart() {
   cartFoot.hidden = false;
   cartBody.innerHTML = `
     <div class="cart-item">
-      <div class="cart-item-thumb" aria-hidden="true">m</div>
+      <img class="cart-item-thumb" src="images/komplekt.jpeg" alt="">
       <div>
         <p class="cart-item-title">${PRODUCT.title}</p>
         <p class="cart-item-sub">${PRODUCT.subtitle}</p>

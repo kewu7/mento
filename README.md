@@ -23,13 +23,13 @@ js/main.js      — ostukorv (localStorage), tellimuse vormistamine, valideerimi
 
 Kasutusel:
 
-- `images/komplekt.jpeg` — kangelase visuaal (`.hero-card`)
+- `images/komplekt.jpeg` — kangelase visuaal (`.hero-card`), ostuplokk (`.buy-visual`)
+  ja ostukorvi pisipilt
 - `images/kinkekarp.jpeg` — kingituse sektsioon
 
-Veel fotodega katmata (praegu brändistiilis SVG-joonistused, HTML-is kommentaarid):
+Veel fotodega katmata (praegu brändistiilis SVG-joonistused):
 
 - `images/veski.jpg`, `images/purk.jpg`, `images/laastud.jpg` — "Karbis on" kaardid
-- ostuploki visuaal (`.buy-visual`) — sobiks detailifoto (nt kristallid lähivõttes)
 
 Soovituslik formaat: WebP/AVIF, laius ~1200 px, `loading="lazy"` (v.a hero).
 
