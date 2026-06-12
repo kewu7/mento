@@ -50,6 +50,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
 
 body {
   margin: 0;
+  overflow-x: clip;
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -451,6 +452,9 @@ section { padding-block: clamp(56px, 9vw, 104px); }
   align-items: center;
 }
 
+/* Grid-laste min-width: auto ei tohi lasta sisul (nt tabelil) vaadet laiemaks venitada */
+.hero-grid > *, .story-grid > *, .gift-grid > *, .buy-card > * { min-width: 0; }
+
 .compare-card {
   background: #fff;
   border: 1px solid var(--line);
@@ -464,7 +468,13 @@ section { padding-block: clamp(56px, 9vw, 104px); }
   width: 100%;
   border-collapse: collapse;
   font-size: .88rem;
+  table-layout: fixed;
 }
+.compare-table th, .compare-table td {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+.compare-table thead th:first-child { width: 30%; }
 .compare-table th, .compare-table td {
   text-align: left;
   padding: 10px 12px;
